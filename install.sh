@@ -21,7 +21,7 @@ do
       -H "Referer: https://marketplace.visualstudio.com/items?itemName=$p" \
       --compressed --output "$(pwd)/$p.vsix"
 
-      sleep 3
+      sleep 6
     else
       echo "File $(pwd)/$p.vsix already exists, skipping download."
     fi
@@ -41,7 +41,7 @@ done
 # zip up the folder
 # cd GitHub.copilot-chat && zip -r ../GitHub.copilot-chat-final.vsix * && cd ..
 
-code-server --install-extension GitHub.copilot.vsix
+/tmp/code-server/bin/code-server --install-extension GitHub.copilot.vsix
 
 # code-server --install-extension GitHub.copilot-chat-final.vsix
 # rm -rf ./GitHub.copilot-chat
