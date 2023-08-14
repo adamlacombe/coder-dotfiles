@@ -1,0 +1,14 @@
+[
+  {
+      "publisher": "Codeium",
+      "extension_name": "codeium",
+      "version": "latest",
+      "marketplace": "vsmarketplace"
+  },
+  {
+      "publisher": "gitpod",
+      "extension_name": "gitpod-theme",
+      "version": "latest",
+      "marketplace": "default"
+  }
+]
