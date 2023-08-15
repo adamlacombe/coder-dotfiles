@@ -33,6 +33,7 @@ if [ $? -eq 0 ];
 then
     echo "Decrypted file: secrets.sh"
     cat secrets.sh >> ~/.bashrc
+    source secrets.sh
 else
     echo "Error: Could not decrypt file! Check password!"
 fi
