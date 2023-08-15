@@ -42,7 +42,7 @@ source ~/.bashrc
 # set codeium apiKey
 mkdir -p ~/.codeium
 cat >~/.codeium/config.json <<EOL
-{"apiKey": "${CODEIUM_CONFIG_API_KEY}"}
+{"apiKey": "$CODEIUM_CONFIG_API_KEY"}
 EOL
 
 # Check if install_vscode_extensions exists
