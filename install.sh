@@ -58,3 +58,8 @@ else
 fi
 
 source ~/.bashrc
+
+mkdir -p ~/.codeium
+cat >~/.codeium/config.json <<EOL
+{"apiKey": "${CODEIUM_CONFIG_API_KEY}"}
+EOL

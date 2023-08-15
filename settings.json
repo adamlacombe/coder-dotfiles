@@ -30,5 +30,6 @@
       "*": true
     }
   },
-  "github.copilot.inlineSuggest.enable": true
+  "github.copilot.inlineSuggest.enable": true,
+  "codeium.useSecretStorage": false
 }
