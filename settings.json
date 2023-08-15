@@ -6,7 +6,7 @@
   "deno.documentPreloadLimit": 4000,
   "editor.disableMonospaceOptimizations": true,
   "editor.tabSize": 2,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "files.autoSave": "off",
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -31,5 +31,8 @@
     }
   },
   "github.copilot.inlineSuggest.enable": true,
+  "codeium.enableConfig": {
+    "*": true
+  },
   "codeium.useSecretStorage": false
 }
