@@ -33,6 +33,5 @@
   "github.copilot.inlineSuggest.enable": true,
   "codeium.enableConfig": {
     "*": true
-  },
-  "codeium.useSecretStorage": false
+  }
 }
