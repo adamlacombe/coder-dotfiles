@@ -10,5 +10,11 @@
       "extension_name": "gitpod-theme",
       "version": "latest",
       "marketplace": "default"
+  },
+  {
+      "publisher": "streetsidesoftware",
+      "extension_name": "code-spell-checker",
+      "version": "latest",
+      "marketplace": "default"
   }
 ]
